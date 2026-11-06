@@ -3,4 +3,12 @@ Cd examenMas
 git init -b master
 echo"dani mas" > readme.md
 nano comandos.txt
+git add .
+git commit -m "Primer comit"
+git remote add origin https://github.com/masmartinezdaniel-hash/examenMas.git
+git push -u origin master
+git branch desarrollo
+git switch desarrollo
+
+
 
