@@ -9,6 +9,13 @@ git remote add origin https://github.com/masmartinezdaniel-hash/examenMas.git
 git push -u origin master
 git branch desarrollo
 git switch desarrollo
+mkdir src docs data
+echo "<h1>Hola</h1>" > src/index.html
+cat src/index.html
+git add .
+git commit -m "Crear estructura inicial y archivo index"
+cd docs
+cp ../src/index.html ../data/copia.txt
 
 
 
