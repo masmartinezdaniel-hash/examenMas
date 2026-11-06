@@ -1,0 +1,6 @@
+mkdir examenMas
+Cd examenMas
+git init -b master
+echo"dani mas" > readme.md
+nano comandos.txt
+
