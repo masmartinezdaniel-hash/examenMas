@@ -18,6 +18,18 @@ cd docs
 cp ../src/index.html ../data/copia.txt
 git add .
 git commit -m "Copiar index.html a data como copia.txt"
+git switch -c bug
+echo "Mi lenguaje favorito es Python" >> readme.md
+git add .
+git commit -m "Añadir lenguaje de programación favorito"
+git switch desarrollo
+git merge bug
+git switch master
+git merge desarrollo
+git tag v1
+git push origin master
+git push origin v1
+git log --oneline --graph --all --decorate
 
 
 
