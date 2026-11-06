@@ -16,6 +16,8 @@ git add .
 git commit -m "Crear estructura inicial y archivo index"
 cd docs
 cp ../src/index.html ../data/copia.txt
+git add .
+git commit -m "Copiar index.html a data como copia.txt"
 
 
 
